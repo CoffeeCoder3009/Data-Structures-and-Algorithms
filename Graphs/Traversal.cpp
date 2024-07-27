@@ -81,19 +81,3 @@ vector<int> dfsOfGraph(int V, vector<int> adj[]) {
     }
     return ans;
 }
-
-
-int main(){
-     int n,m;
-     cout<<"Enter no of nodes and edges"<<endl;
-     cin>>n>>m;
-     graph g;
-     for(int i =0;i<n;i++){
-        int u,v;
-        cin>>u>>v;
-        g.addEdge(u,v,0);
-     }
-     g.printList();
-
-    return 0;
-}
